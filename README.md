@@ -1,7 +1,10 @@
 markdownfmt
 ===========
 
-Fork of github.com/shurcooL/markdownfmt that targets goldmark to render from parsed markdown AST.
+Fork of github.com/shurcooL/markdownfmt that targets following additions:
+
+* Goldmark used instead of blackfriday to render from parsed markdown AST
+* Full info string support for Fenced Code Block (see [issue](https://github.com/shurcooL/markdownfmt/issues/58))
 
 [![Build Status](https://travis-ci.org/Kunde21/markdownfmt.svg?branch=master)](https://travis-ci.org/Kunde21/markdownfmt) [![GoDoc](https://godoc.org/github.com/Kunde21/markdownfmt?status.svg)](https://godoc.org/github.com/Kunde21/markdownfmt)
 
