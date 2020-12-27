@@ -34,6 +34,14 @@ defer f.Close() // What if an error occurs here?
 
 // Write something to file... etc.
 ```
+
+* Some item with nested code with strict whitespaces.
+  ```Makefile
+  include .bingo/Variables.mk
+  
+  run:
+  	@$(GOIMPORTS) <args>
+  ```
 Title
 ==
 
