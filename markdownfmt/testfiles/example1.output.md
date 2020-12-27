@@ -33,6 +33,15 @@ defer f.Close() // What if an error occurs here?
 // Write something to file... etc.
 ```
 
+* Some item with nested code with strict whitespaces.
+
+  ```Makefile
+  include .bingo/Variables.mk
+  
+  run:
+  	@$(GOIMPORTS) <args>
+  ```
+
 # Title
 
 Paragraphs will be also concatenated for clean view. However, it might be not easy to edit it via editors, so you can specify text line width to be ensured. It also makes sure words are together,so it will ensure wanted line length as you wish.
